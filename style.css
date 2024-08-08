@@ -119,6 +119,9 @@ ul {
     padding: 15px 30px;
     text-align: center;
 }
+.banner-text span{
+    color: rgb(94, 53, 181) !important;
+}
 
 /* nav bar */
 
@@ -127,8 +130,20 @@ ul {
     justify-content: space-between;
 }
 
-.company-logo img {
-    width: 200px;
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-logo img{
+    width: 50px;
+}
+.logo p{
+    display: inline-block;
+    align-items: center;
+}
+.logo p span{
+    color: #2294ed;
 }
 
 .nav-links {
